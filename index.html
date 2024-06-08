@@ -1,0 +1,146 @@
+<link rel="stylesheet" href="stylesheet.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <h1>Drawing Canvas</h1>
+    <canvas id="Canvas" width="1220" , height="550"></canvas>
+
+    <button id="Black">Black</button>
+    <button id="Blue">Blue</button>
+    <button id="Green">Green</button>
+    <button id="Red">Red</button>
+    <button id="Grey">Grey</button>
+    <button id="Yellow">Yellow</button>
+    <button id="Orange">Orange</button>
+
+    <button id="Erase">Erase</button>
+    <button id="Clear">Clear Canvas</button>
+
+    <div class="canvas_color">
+        <input type="color" id="canvasColorPicker">
+    </div>
+
+    <div class="pen_color" style="margin-top: 20px;">
+        <label for="penColorPicker">Color Picker: </label>
+        <input type="color" id="penColorPicker">
+    </div>
+
+
+
+
+    <div class="width">
+        <div id="container">
+            <label for="eraserWidth">Eraser Width:</label>
+            <input type="range" id="eraserWidth" min="1" max="50" value="5">
+        </div>
+
+        <div id="container2">
+            <label for="penwidthblack">Pen Width Black:</label>
+            <input type="range" id="penwidthblack" min="1" max="50" value="5">
+        </div>
+
+        <div id="container3">
+            <label for="penwidthblue">Pen Width Blue:</label>
+            <input type="range" id="penwidthblue" min="1" max="50" value="5">
+        </div>
+
+        <div id="container4">
+            <label for="penwidthgreen">Pen Width Green:</label>
+            <input type="range" id="penwidthgreen" min="1" max="50" value="5">
+        </div>
+
+        <div id="container5">
+            <label for="penwidthred">Pen Width Red:</label>
+            <input type="range" id="penwidthred" min="1" max="50" value="5">
+        </div>
+
+        <div id="container6">
+            <label for="penwidthgrey">Pen Width Grey:</label>
+            <input type="range" id="penwidthgrey" min="1" max="50" value="5">
+        </div>
+
+        <div id="container7">
+            <label for="penwidthyellow">Pen Width Yellow:</label>
+            <input type="range" id="penwidthyellow" min="1" max="50" value="5">
+        </div>
+
+        <div id="container8">
+            <label for="penwidthorange">Pen Width Orange:</label>
+            <input type="range" id="penwidthorange" min="1" max="50" value="5">
+        </div>
+
+        <div id="container14">
+            <label for="penwidth">Custom Pen Width:</label>
+            <input type="range" id="penwidth" min="1" max="50" value="5">
+        </div>
+    </div>
+
+
+
+    <div class="shapes">
+        <div class="container9">
+            <h4 style="margin-bottom: 0px;">Add Square:</h4>
+            <label for="squaresize">Enter Square size: </label>
+            <input type="number" id="squaresize">
+            <label for="squarecolor" style="margin-top: 10px;">Enter Square Color: </label>
+            <input type="text" id="squarecolor">
+        </div>
+
+        <div class="container10">
+            <h4 style="margin-bottom: 0px;">Add Rectangle:</h4>
+            <label for="rectlen">Enter Rectangle length: </label>
+            <input type="number" id="rectlen">
+            <label for="rectwid" style="margin-top: 10px;">Enter Rectangle Breadth: </label>
+            <input type="number" id="rectwid">
+            <label for="rectcolor" style="margin-top: 10px;">Enter Rectangle Color: </label>
+            <input type="text" id="rectcolor">
+        </div>
+
+        <div class="container11">
+            <h4 style="margin-bottom: 0px;">Add Circle:</h4>
+            <label for="circr">Enter Radius: </label>
+            <input type="number" id="circr">
+            <label for="circcolor" style="margin-top: 10px;">Enter Circle Color: </label>
+            <input type="text" id="circcolor">
+        </div>
+
+        <div class="container12">
+            <h4 style="margin-bottom: 0px;">Add Triangle:</h4>
+            <label for="trianglesize">Enter Triangle Size:</label>
+            <input type="number" id="trianglesize">
+            <label for="trianglecolor" style="margin-top: 10px;">Enter Triangle Color:</label>
+            <input type="text" id="trianglecolor">
+        </div>
+
+        <div class="container13">
+            <h4 style="margin-bottom: 0px;">Enter Text:</h4>
+            <label for="txt">Type the text that you want to add:</label>
+            <input type="text" id="txt">
+            <label for="txtsize" style="margin-top: 10px;">Text Size:</label>
+            <input type="number" id="txtsize">
+            <label for="txtcol" style="margin-top: 10px;">Text Color:</label>
+            <input type="text" id="txtcol">
+
+        </div>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <h4 style="margin-bottom: 0px;">Load a Drawing:</h4>
+        <input type="file" id="uploadInput" accept="image/*">
+        <button id="upload">Upload Drawing</button>
+    </div>
+
+
+    <label for="dot" style="font-weight: bold;">Dotted Brush:</label>
+    <input type="checkbox" id="dot">
+    <script src="index.js"></script>
+</body>
+
+</html>

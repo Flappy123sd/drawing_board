@@ -1,0 +1,175 @@
+body {
+  user-select: none;
+  margin: 0;
+}
+
+#Canvas {
+  border: 5px solid black;
+  float: left;
+  margin-right: 10px;
+  cursor: crosshair;
+}
+
+#Controls {
+  float: left;
+}
+
+.canvas_color {
+  display: flex;
+  margin-right: 30px;
+}
+
+#Black,
+#Blue,
+#Green,
+#Red,
+#Grey,
+#Orange,
+#Yellow,
+#Erase,
+#Clear {
+  display: block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+#Black {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+#Blue {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+
+#Green {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+#Red {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+#Grey {
+  background-color: gray;
+  border-color: gray;
+  color: white;
+}
+
+#Yellow {
+  background-color: yellow;
+  border-color: yellow;
+  color: black;
+}
+
+#Orange {
+  background-color: orangered;
+  border-color: orangered;
+  color: black;
+}
+
+#Erase {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+#Clear {
+  background-color: rgb(111, 3, 252);
+  border-color: rgb(111, 3, 252);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#container {
+  padding-top: 300px;
+}
+
+#container2 {
+  color: black;
+}
+
+#container3 {
+  color: blue;
+}
+
+#container4 {
+  color: green;
+}
+
+#container5 {
+  color: red;
+}
+
+#container6 {
+  color: rgb(66, 66, 66);
+}
+
+#container7 {
+  color: rgb(191, 196, 41);
+}
+
+#container8 {
+  color: orangered;
+}
+
+.shapes {
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+}
+
+.container9 {
+  display: flex;
+  flex-flow: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
+
+.container10 {
+  display: flex;
+  flex-flow: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
+
+.container11 {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: wheat;
+}
+
+.container12 {
+  display: flex;
+  flex-flow: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
+
+.container9 {
+  display: flex;
+  flex-flow: column;
+}
+
+.container13 {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
